@@ -65,7 +65,7 @@ is not complete without backtracking, making it very vulnerable to loops.
 It is a function h(n) that estimates the cost of a path between the current state and
 the final state.
 ** What value is used to order the nodes on the open list?
-The value of the f(n) + h(n) + current cost or g(n) is used to order the nodes.
+The value of the f(n) = h(n) + current cost or g(n) is used to order the nodes.
 ** At what stage do you know that you have found the shortest path to the goal state?
 When the goal state is reached, the current path is the shortest, but this is
 not necessarily accurate depending on the heuristic.
